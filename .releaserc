@@ -1,0 +1,45 @@
+{
+  "branches": [
+    "main"
+  ],
+  "repositoryUrl": "https://github.com/newbish/changelog-test.git",
+  "presets": "angular",
+  "dryRun": false,
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/git",
+    [
+      "@newbish/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "gulp zip --ver ${nextRelease.version}"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "zip/deploy.zip"
+          }
+        ]
+      }
+    ]
+  ],
+  "prepare": [
+    "@newbish/changelog",
+    {
+      "path": "@semantic-release/git",
+      "assets": [
+        "CHANGELOG.md"
+      ],
+      "message": "chore(release): v${nextRelease.version} [skip actions]"
+    }
+  ]
+}
