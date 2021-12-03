@@ -20,7 +20,12 @@
     [
       "@newbish/changelog",
       {
-        "changelogFile": "CHANGELOG.md"
+        "changelogFile": "CHANGELOG.md",
+        "branch": [
+          "main",
+          "dev",
+          "qa"
+        ]
       }
     ],
     [
