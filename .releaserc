@@ -1,6 +1,14 @@
 {
   "branches": [
-    "main"
+    "main",
+    {
+      "name": "qa",
+      "prerelease": true
+    },
+    {
+      "name": "dev",
+      "prerelease": true
+    }
   ],
   "repositoryUrl": "https://github.com/newbish/changelog-test.git",
   "presets": "angular",
