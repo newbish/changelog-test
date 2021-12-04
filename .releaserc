@@ -21,7 +21,7 @@
       "@newbish/changelog",
       {
         "changelogFile": "CHANGELOG.md",
-        "branches": [
+        "runon": [
           "dev",
           "qa"
         ]
