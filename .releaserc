@@ -21,7 +21,7 @@
       "@newbish/changelog",
       {
         "changelogFile": "CHANGELOG.md",
-        "branch": [
+        "branches": [
           "main",
           "dev",
           "qa"
