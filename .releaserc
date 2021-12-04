@@ -21,7 +21,7 @@
       "@newbish/changelog",
       {
         "changelogFile": "CHANGELOG.md",
-        "runon": [
+        "branches": [
           "dev",
           "qa"
         ]
@@ -35,9 +35,10 @@
       "assets": [
         "CHANGELOG.md"
       ],
-      "runon": [
+      "branches": [
         "dev",
-        "qa"
+        "qa",
+        "test"
       ],
       "message": "chore(release): v${nextRelease.version} [skip actions]"
     }
