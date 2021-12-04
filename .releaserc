@@ -26,22 +26,6 @@
           "qa"
         ]
       }
-    ],
-    [
-      "@semantic-release/exec",
-      {
-        "publishCmd": "gulp zip --ver ${nextRelease.version}"
-      }
-    ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": [
-          {
-            "path": "zip/deploy.zip"
-          }
-        ]
-      }
     ]
   ],
   "prepare": [
