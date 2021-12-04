@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/newbish/changelog-test/compare/v1.2.0...v1.3.0) (2021-12-04)
+
+
+### Features
+
+* **test:** create fake build ([b9b5e2c](https://github.com/newbish/changelog-test/commit/b9b5e2cce6cbabe3427c3d7a0b7dafd589892e92))
+
 # [1.2.0](https://github.com/newbish/changelog-test/compare/v1.1.0...v1.2.0) (2021-12-04)
 
 
