@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/newbish/changelog-test/compare/v1.1.0...v1.2.0) (2021-12-04)
+
+
+### Features
+
+* **test:** remove gulp ([689d6fd](https://github.com/newbish/changelog-test/commit/689d6fd0ad9301887f5a0fbddac9f570cf9df833))
+
 # [1.1.0](https://github.com/newbish/changelog-test/compare/v1.0.0...v1.1.0) (2021-12-04)
 
 
