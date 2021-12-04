@@ -20,11 +20,7 @@
     [
       "@newbish/changelog",
       {
-        "changelogFile": "CHANGELOG.md",
-        "runon": [
-          "dev",
-          "qa"
-        ]
+        "changelogFile": "CHANGELOG.md"
       }
     ]
   ],
@@ -34,6 +30,10 @@
       "path": "@semantic-release/git",
       "assets": [
         "CHANGELOG.md"
+      ],
+      "runon": [
+        "dev",
+        "qa"
       ],
       "message": "chore(release): v${nextRelease.version} [skip actions]"
     }
