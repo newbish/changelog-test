@@ -20,7 +20,11 @@
     [
       "@newbish/changelog",
       {
-        "changelogFile": "CHANGELOG.md"
+        "changelogFile": "CHANGELOG.md",
+        "runon": [
+          "dev",
+          "qa"
+        ]
       }
     ]
   ],
