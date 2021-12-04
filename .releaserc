@@ -22,7 +22,6 @@
       {
         "changelogFile": "CHANGELOG.md",
         "branches": [
-          "main",
           "dev",
           "qa"
         ]
