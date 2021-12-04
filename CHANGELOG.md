@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/newbish/changelog-test/compare/v1.0.0...v1.1.0) (2021-12-04)
+
+
+### Features
+
+* **test:** test ([253b8cc](https://github.com/newbish/changelog-test/commit/253b8cc76d8da09d2854ab6d457b379cff5b30d1))
+
 # 1.0.0 (2021-12-04)
 
 
