@@ -22,8 +22,7 @@
       {
         "changelogFile": "CHANGELOG.md",
         "branches": [
-          "dev",
-          "qa"
+          "main"
         ]
       }
     ]
@@ -34,11 +33,6 @@
       "path": "@semantic-release/git",
       "assets": [
         "CHANGELOG.md"
-      ],
-      "branches": [
-        "dev",
-        "qa",
-        "test"
       ],
       "message": "chore(release): v${nextRelease.version} [skip actions]"
     }
