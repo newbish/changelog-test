@@ -18,7 +18,7 @@
     "url": "https://github.com/newbish/changelog-test.git"
   },
   "dependencies": {
-    "@newbish/changelog": "file:../changelog",
+    "@newbish/changelog": "0.0.3-development",
     "@semantic-release/exec": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "gulp": "^4.0.2"
